@@ -1,5 +1,5 @@
 # JAVA NEDİR ?
-![Image](https://github.com/user-attachments/assets/b6b5ed25-46ec-40e6-9711-398c820a5977)
+![Image](https://github.com/user-attachments/assets/da0bbb27-4fee-4e2c-b3b3-35860bd54e1b)
 
 Java, popüler bir programlama dilidir ve geniş bir kullanım alanına sahiptir. Başlangıçta, Sun Microsystems tarafından geliştirilmiş olan bu dil, daha sonra Oracle tarafından satın alınmıştır. Java'nın en belirgin özelliklerinden biri, "Bir kez derle, her yerde çalıştır" (Compile once, run anywhere) ilkesini benimsemesidir. Bu özellik sayesinde Java programları farklı platformlarda tekrar derleme gerekmeksizin çalışabilir.
 
@@ -26,8 +26,7 @@ Java uygulamaları, doğrudan donanım üzerinde çalışmaz. Bunun yerine, derl
 - Bir programı yazan kişiye **programcı** (programmer) denir.
 - Programla etkileşime giren kişiye ise **kullanıcı** (user) denir.
 
-![Image](https://github.com/user-attachments/assets/da0bbb27-4fee-4e2c-b3b3-35860bd54e1b)
-
+![Image](https://github.com/user-attachments/assets/b6b5ed25-46ec-40e6-9711-398c820a5977)
 ## Paketler (Packages)
 
 - **Paket** (package), önceden tanımlanmış sınıflardan oluşan bir kütüphanedir.
