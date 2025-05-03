@@ -1,0 +1,116 @@
+import java.util.Scanner;
+import java.util.Arrays;
+/**
+ *
+ * @author sadik
+ */
+
+
+public class Javalab5 {
+
+    public static void main(String[] args) {
+        String cumle;
+        int flag=0; // kontrol degiskenimiz.
+        char character,character2;
+        Scanner keyboard=new Scanner(System.in);
+        System.out.println("Lutfen cumleyi giriniz:");
+        cumle=keyboard.nextLine();
+        int a;
+        for(a=0;a<cumle.length();a++){
+            character=cumle.charAt(a);
+            character2=cumle.charAt(cumle.length()-1-a);
+            if(character==character2){ // kontrol
+            }
+            else{
+                flag=1;  // eger esit degil ise kontrol degisir
+            }
+        }
+        if(flag==0){
+            System.out.println(cumle); // palindromsa yazdir
+        }
+        else{
+            System.out.println("yanlis");
+        }
+        
+        System.out.println("Dizinin uzunlugunu giriniz: ");
+        int boyut;
+        boyut=keyboard.nextInt();
+       int dizi1[]=new int[boyut];
+       int dizi2[]=new int[boyut];
+       
+       
+       // İlk diziyi kullanıcıdan alalım
+        System.out.println("Birinci dizinin elemanlarini giriniz:");
+        for (int i = 0; i < boyut; i++) {
+            System.out.print("dizi1[" + i + "] = ");
+            dizi1[i] = keyboard.nextInt();
+        }
+        
+        // İkinci diziyi kullanıcıdan alalım
+        System.out.println("İkinci dizinin elemanlarini giriniz:");
+        for (int i = 0; i < boyut; i++) {
+            System.out.print("dizi2[" + i + "] = ");
+            dizi2[i] = keyboard.nextInt();
+        }
+       
+       if(Arrays.equals(dizi1,dizi2)){
+           System.out.println("diziler birbirine esittir");
+       }
+       else{
+           System.out.println("diziler birbirine esit degildir");
+       }
+       
+    int dizi3[][]={ // cift boyutlu dizi
+        {1,2},{3,4},{5,6}
+    };
+    
+    System.out.println("2 boyutlu dizi: ");
+     for(int i=0;i<dizi3.length;i++){
+         for(int j=0;j<dizi3[i].length;j++){
+             System.out.print(dizi3[i][j]+" ");
+         }
+         System.out.println();
+     } 
+      
+     // 5 elemanlı bir dizi oluşturuyoruz
+        int dizi4[] = new int[5];
+        
+        // Kullanıcıdan dizinin elemanlarını alalım
+        System.out.println("Lütfen 5 tane tamsayı giriniz:");
+        for (int i = 0; i < dizi4.length; i++) {
+            System.out.print("dizi[" + i + "] = ");
+            dizi4[i] = keyboard.nextInt();
+        }
+        
+        // Insertion sort ile diziyi sıralayalım
+        insertionSort(dizi4);
+        
+        // Sıralı diziyi ekrana yazdıralım
+        System.out.println("\nSıralı Dizi:");
+        for (int i = 0; i < dizi4.length; i++) {
+            System.out.print(dizi4[i] + " ");
+        }
+        
+        // Scanner'ı kapatalım
+        keyboard.close();
+    }
+    
+    // Insertion Sort algoritmasını implement ediyoruz
+    public static void insertionSort(int[] dizi4) {
+        // 1. elemandan başlayarak diziyi sıralıyoruz
+        for (int i = 1; i < dizi4.length; i++) {
+            int key = dizi4[i]; // Sıralanacak eleman
+            int j = i - 1; 
+            
+            // Key elemanını doğru yere yerleştirmek için
+            // Dizinin sol tarafındaki elemanları kaydırıyoruz
+            while (j >= 0 && dizi4[j] > key) {
+                dizi4[j + 1] = dizi4[j]; // Elemanı kaydır
+                j = j - 1;
+            }
+            dizi4[j + 1] = key; // En son Key elemanını doğru yerine yerleştir
+        }
+    }
+    
+       
+}
