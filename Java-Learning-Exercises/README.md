@@ -9,7 +9,7 @@ Java uygulamaları, doğrudan donanım üzerinde çalışmaz. Bunun yerine, derl
 
 ## Java Programlarının İki Türü
 
-![javaFeature_img](https://github.com/user-attachments/assets/a72843e7-e12f-4e59-9db4-b892fcd88a0e)
+![Image](https://github.com/user-attachments/assets/7ec021f1-c289-464f-879b-7b1de429739c)
 
 ### Uygulamalar (Applications)
 
