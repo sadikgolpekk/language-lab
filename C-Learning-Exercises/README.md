@@ -10,3 +10,4 @@ Bu depo, benim için yazılıma adım attığım ilk dönemlerin bir hatırası 
 
 > 🧠 Yazılım serüvenime bu projelerle başladım ve her biri düşünce dünyama katkı sağladı. Umarım başkalarına da fayda sağlar.
 
+![Image](https://github.com/user-attachments/assets/a2c62cbd-648f-4257-be2f-ebd6b2bfcc14)
