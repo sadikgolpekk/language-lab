@@ -10,4 +10,3 @@ Bu depo, benim için yazılıma adım attığım ilk dönemlerin bir hatırası 
 
 > 🧠 Yazılım serüvenime bu projelerle başladım ve her biri düşünce dünyama katkı sağladı. Umarım başkalarına da fayda sağlar.
 
-📁 Tüm dosyalar bağımsız olarak çalıştırılabilir yapıdadır.
