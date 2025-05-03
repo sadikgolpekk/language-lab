@@ -187,7 +187,7 @@ System.out.println(var + " kez A");
 
 # Java Kimlik Kuralları (Identifiers)
 
-![variables](https://github.com/user-attachments/assets/a56d5dc8-e7e0-4260-b5cf-56bbb3762c25)
+![Image](https://github.com/user-attachments/assets/e5c5a43c-5396-4506-8863-737a1b4a3886)
 
 ## Kimlikler (Identifiers)
 
@@ -234,7 +234,7 @@ Java'da diziler, aynı türdeki öğeleri saklayan veri yapılarına verilen isi
 
 ## Dizi Tanımlama
 
-![maxresdefault](https://github.com/user-attachments/assets/6f1109a8-269e-47ad-a3db-b650d7cc803d)
+![Image](https://github.com/user-attachments/assets/62a4c439-093a-4a46-b776-3eb5803730cf)
 
 Bir dizi tanımlamak için şu sözdizimi kullanılır:
 
@@ -310,7 +310,7 @@ System.out.println(vector.get(0));  // Eleman erişimi: "X"
 **Constructor** (Yapıcı), bir sınıfın örneği (instance) oluşturulduğunda çağrılan özel bir yöntemdir. Constructor, sınıfın alanlarını (fields) başlatmak ve sınıfın örneğini doğru şekilde kurmak için kullanılır. Java'da **constructor** sınıfın temel bileşenlerinden biridir ve sınıfın doğru bir şekilde başlatılmasını sağlar.
 
 ## Constructor Nedir?
-![Java_Constructors](https://github.com/user-attachments/assets/178d2f5b-ab2b-4ea6-9d47-a073516b85af)
+![Image](https://github.com/user-attachments/assets/c9da2d5c-b3ba-40d4-a81f-85588ee3aa89)
 
 - **Constructor** adı, sınıf adıyla aynı olmalıdır.
 - Constructor'lar geri dönüş değeri içermez, yani bir değer döndürmezler.
