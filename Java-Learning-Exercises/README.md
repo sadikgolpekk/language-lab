@@ -9,7 +9,7 @@ Java uygulamaları, doğrudan donanım üzerinde çalışmaz. Bunun yerine, derl
 
 ## Java Programlarının İki Türü
 
-![Image](https://github.com/user-attachments/assets/7ec021f1-c289-464f-879b-7b1de429739c)
+
 
 ### Uygulamalar (Applications)
 
@@ -102,7 +102,7 @@ System.out.println(var + " kez A");
 
 ## Derleme ve Çalıştırma Komutları
 
-![Java-Interpreter-Step-by-Step1](https://github.com/user-attachments/assets/204d61e1-354c-4778-8b0f-38d5f4973e3e)
+![Image](https://github.com/user-attachments/assets/7ec021f1-c289-464f-879b-7b1de429739c)
 
 - Bir Java programı derlendiğinde, programın byte-code sürümü `.java` uzantısından `.class` uzantısına dönüştürülür.
   ```
