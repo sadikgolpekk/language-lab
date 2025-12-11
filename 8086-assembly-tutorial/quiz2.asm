@@ -1,6 +1,4 @@
- ;36.grup
- ; Hilmi Aziz Ozturk 230201154
- ; Sadik Golpek 230201040
+ ; com template ile kullanılarak yazılmış olan çalışan bir quiz
 
 org 100h
 
