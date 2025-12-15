@@ -1,0 +1,27 @@
+sayi1=20
+sayi2=30
+
+# 3sayi=40 --> değişken isimleri rakam ile başlayamaz.
+
+sayi3=50
+
+# sayi3@=60 --> değişkenler içinde sadece "_" kullanılabilir.
+
+urunFiyati=1000 # camelCase
+urun_fiyati=2000
+
+yas=20
+YAS=30 # case sensitive
+
+
+# komut isimlerinden kullanmamalıyız.
+# True ="Ahmet"
+
+x="10"
+y="20"
+
+print(x+y)
+
+x,y,z=10,20,30
+print(x,y,z)
+
