@@ -1,4 +1,4 @@
-"""
+
 # Kutucuk Oyunu
 
 Pygame ile basit bir oyun projesi. Oyuncu, klavye tuşlarıyla hareket ettirdiği kutucukla düşen yiyecekleri yakalamaya çalışırken puan kazanır ve canını korur.
@@ -17,4 +17,3 @@ Pygame kütüphanemizi indirelim:
 ## Lisans:
 MIT Lisansı ile lisanslanmıştır. Detaylar için [MIT Lisansı](LICENSE) dosyasına bakınız.
 
-"""
