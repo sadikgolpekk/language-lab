@@ -76,7 +76,7 @@ RET
 - Daha karmaşık ama gerçekçi program yapısına sahiptir
 
 Örnek başlangıç:
-```
+```asm
   .MODEL SMALL
 .STACK 100h
 .DATA
