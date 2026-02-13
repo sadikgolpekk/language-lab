@@ -1,0 +1,49 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.javalab2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author sadik
+ */
+public class JavaLab2 {
+
+    public static void main(String args[]) {
+     
+        char foo='7';
+        
+        int bar=foo-'0';
+        
+        System.out.println(bar);
+        
+        
+    Scanner value=new Scanner(System.in);
+    double length,height,area; 
+    
+    System.out.println("Please enter the lenght");
+    length=value.nextDouble();
+    
+    System.out.println("Please enter the height");
+    height=value.nextDouble();
+    
+   area=length*height/2;
+   
+   System.out.println("The area of the triangle as a double:"+area);
+        
+   int lengthInt = (int) length; // typecasting
+   int heightInt = (int) height;
+   
+   int areaInt=lengthInt*heightInt/2;
+   
+   System.out.println("The area of the triangle as an int: " + areaInt);
+   
+   
+   System.out.println("The loss of value due to precision loss:"+(area-areaInt));
+   
+   
+    }
+}
