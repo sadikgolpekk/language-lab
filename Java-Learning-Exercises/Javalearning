@@ -1,0 +1,91 @@
+ /*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.javalearning;
+
+/**
+ *
+ * @author sadik
+ */
+
+class Baby{
+    
+    private String name;
+    double weight;
+    char sex;
+   
+ 
+  public Baby(String name,double weight,char sex){
+      
+      this.name=name;
+      this.weight=weight;
+      this.sex=sex;
+      
+  }
+  public Baby(){
+      
+    name="ahmet";
+    weight=15;
+    sex='M';
+  }
+  
+ 
+  public  void kiloarttir(){
+       
+    weight=weight+5;
+      System.out.println(weight);
+      
+  }
+  
+public String getName(){
+    return this.name;
+}
+
+public void setName(String name){
+    this.name=name;
+}
+     
+    
+}
+class MathUtils{ // classlar uzerinden
+   
+    public static int add(int a,int b){
+        
+        return a+b;
+    }
+    
+    
+}
+
+public class Javalearning{
+
+    public static void main(String args[]){
+      
+     String name="joe";
+     double weight=3.7;
+     char sex='M';
+     
+     Baby joe=new Baby(name,weight,sex);
+     Baby ahmet=new Baby();
+
+  
+     joe.kiloarttir();
+     
+     System.out.println(joe.getName()+" "+joe.weight+" "+joe.sex);
+     System.out.println(ahmet.getName()+" "+ahmet.weight+" "+ahmet.sex);
+     
+     int result=MathUtils.add(5,10);
+        System.out.println(result);
+        
+        
+     joe.setName("Alex");  // Burada set metodunu kullanıyoruz
+     System.out.println("Joe'nun yeni ismi: " + joe.getName());  // Joe'nun yeni ismi ekrana yazdırılıyor
+    
+    }
+
+
+
+
+
+}
