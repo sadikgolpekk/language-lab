@@ -1,0 +1,39 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.javalab3;
+import java.util.Scanner;
+/**
+ *
+ * @author sadik
+ */
+public class Javalab3 {
+
+    public static void main(String[] args) {
+      Scanner scanner=new Scanner(System.in);
+      // Kullanicidan cumle girisi
+      System.out.print("Bir cumle girin ");
+      String cumle=scanner.nextLine();
+      
+      int aSayisi=0;
+      int buyukharfsayi=0;
+      
+      for(int i=0;i<cumle.length();i++){ // Cumlenin uzunlugunda teker teker gezin 
+          
+          char c=cumle.charAt(i); 
+          if(c=='a'){ // a varsa arttir
+              aSayisi++;
+          }
+          if(Character.isUpperCase(c)){ // Buyuk harf varsa arttir
+              buyukharfsayi++;
+          }
+       
+      }
+      // Sonuclari ekrana yazdir
+      System.out.println("a karakter sayisi: "+aSayisi);
+      System.out.println("Buyuk harfli karakter sayisi: "+buyukharfsayi);
+      
+      scanner.close(); // Scanner kapat
+    }
+}
