@@ -33,12 +33,16 @@ async def get_course_by_id(course_id: str):
             return course
 
 
+# GET → Sunucudan veri almak için kullanılır.
+
 
 @app.get("/courses/byid/{course_id}")
 async def get_course_by_id(course_id: int):
     for course in courses_db:
         if course.get('id')== course_id:
             return course
+
+
 
 
 @app.get("/courses/")
@@ -74,11 +78,15 @@ async def get_category_by_query(course_instructor:str,category:str):
 
         return courses_to_return
 
+# POST → Sunucuya yeni veri eklemek için kullanılır.
 
 @app.post("/courses/create_course")
 async def create_course(new_course=Body()):
     courses_db.append(new_course)
 
+
+
+# PUT → Var olan veriyi güncellemek
 
 @app.put("/courses/update_course")
 async def update_course(updated_course=Body()):
@@ -86,10 +94,12 @@ async def update_course(updated_course=Body()):
         if courses_db[index].get("id")==updated_course.get("id"):
             courses_db[index] = updated_course
 
+# DELETE → Var olan veriyi silmek için kullanılır.
 
 @app.delete("/courses/delete_course/{course_id}")
 async def delete_course(course_id:int):
     for index in range(len(courses_db)):
         if courses_db[index].get("id")==course_id:
             courses_db.pop(index)
+
             break
