@@ -4,12 +4,19 @@ Bu dizin, Python programlama dilini temelden ileri seviyeye kadar öğrenmek iç
 
 ---
 
+<img width="545" height="533" alt="image" src="https://github.com/user-attachments/assets/47081a50-d62a-4688-a0e9-b57dbf7b2e87" />
+
+
 ## 💡 Python Nedir?
 
 **Python**, 1991 yılında **Guido van Rossum** tarafından geliştirilen, yüksek seviyeli, yorumlanan (interpreted) ve nesne yönelimli (OOP) bir programlama dilidir. Günümüzde dünyanın en popüler ve en çok tercih edilen dillerinden biridir.
 
 ### 🎭 İsmi Nereden Gelir?
 Çoğu kişi isminin "Piton" yılanından geldiğini düşünse de, aslında Guido van Rossum bu ismi sevdiği bir İngiliz komedi grubu olan **"Monty Python's Flying Circus"**tan almıştır.
+
+
+<img width="633" height="386" alt="image" src="https://github.com/user-attachments/assets/b730bded-a031-4356-b268-92ffd75ee41f" />
+
 
 ### 📜 Tarihçe
 *   **İlk Çıkış:** 1991 (Python 0.9.0)
@@ -28,6 +35,9 @@ Python'un bu kadar popüler olmasının birkaç temel sebebi vardır:
 4.  **Topluluk:** Dev bir topluluğa sahip olması, karşılaştığınız her sorunun çözümünü kolayca bulmanızı sağlar.
 
 ---
+
+![source](https://github.com/user-attachments/assets/857c7ca0-4794-4e9e-a182-eeb2e86790d9)
+
 
 ## 🌍 Kullanım Alanları
 
@@ -75,6 +85,10 @@ print(selamla("Sadık"))
 ```
 
 ---
+
+
+<img width="490" height="439" alt="image" src="https://github.com/user-attachments/assets/761a3aa4-ff87-4bf1-ac6d-e83cf1fa1ae5" />
+
 
 ## 📂 Bu Klasörde Neler Var?
 
