@@ -11,6 +11,8 @@ Bu dizin, Python programlama dilini temelden ileri seviyeye kadar öğrenmek iç
 
 **Python**, 1991 yılında **Guido van Rossum** tarafından geliştirilen, yüksek seviyeli, yorumlanan (interpreted) ve nesne yönelimli (OOP) bir programlama dilidir. Günümüzde dünyanın en popüler ve en çok tercih edilen dillerinden biridir.
 
+<img width="490" height="439" alt="image" src="https://github.com/user-attachments/assets/761a3aa4-ff87-4bf1-ac6d-e83cf1fa1ae5" />
+
 ### 🎭 İsmi Nereden Gelir?
 Çoğu kişi isminin "Piton" yılanından geldiğini düşünse de, aslında Guido van Rossum bu ismi sevdiği bir İngiliz komedi grubu olan **"Monty Python's Flying Circus"**tan almıştır.
 
@@ -86,8 +88,7 @@ print(selamla("Sadık"))
 
 ---
 
-
-<img width="490" height="439" alt="image" src="https://github.com/user-attachments/assets/761a3aa4-ff87-4bf1-ac6d-e83cf1fa1ae5" />
+![200w](https://github.com/user-attachments/assets/c78c942f-ef6f-4ce1-bff7-7718dfacc6c6)
 
 
 ## 📂 Bu Klasörde Neler Var?
